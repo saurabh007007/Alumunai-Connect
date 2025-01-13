@@ -58,15 +58,9 @@ export default {
   			aurora: 'aurora 60s linear infinite'
   		},
   		keyframes: {
-  			keyframes: {
-  				aurora: {
-  					from: {
-  						backgroundPosition: '50% 50%, 50% 50%'
-  					},
-  					to: {
-  						backgroundPosition: '350% 50%, 350% 50%'
-  					}
-  				}
+  			aurora: {
+  				'from': { backgroundPosition: '50% 50%, 50% 50%' },
+  				'to': { backgroundPosition: '350% 50%, 350% 50%' }
   			}
   		},
   		borderRadius: {
