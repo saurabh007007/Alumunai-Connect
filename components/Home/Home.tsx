@@ -21,10 +21,10 @@ export  function Main() {
           <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
             Alumunai <span className="text-pink-500">Network </span>is Cool.
           </div>
-          <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
-            Lets debug your network.
+          <div className=" text-base md:text-4xl dark:text-neutral-100 py-4">
+            Connect with your college alumni network.
           </div>
-          <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
+          <button className="bg-black dark:bg-pink-400 rounded-full w-fit text-white dark:text-black px-4 py-2">
             Connect Now
           </button>
         </motion.div>
