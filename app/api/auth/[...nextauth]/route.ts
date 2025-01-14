@@ -15,15 +15,16 @@ const handler = NextAuth({
             username: { label: "Username", type: "text", placeholder: "jsmith" },
             password: { label: "Password", type: "password" }
           },
-          async authorize(credentials, req) {
+          async authorize(credentials) {
             const username=credentials?.username;
             const password=credentials?.password;
 
             
             const user={
-                name:"saurabh",
+                name:username,
                 id:"1",
-                username:"saurabh@gmail.com"
+                password:password
+
             }
       
             if (user) {
