@@ -3,10 +3,12 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "../ui/aurora-background";
-
+import Navbar from "../Navabar/Navbar";
 
 export  function Main() {
     return (
+      <>
+      <Navbar />
       <AuroraBackground>
         <motion.div
           initial={{ opacity: 0.0, y: 40 }}
@@ -24,11 +26,13 @@ export  function Main() {
           <div className=" text-base md:text-4xl dark:text-neutral-100 py-4">
             Connect with your college alumni network.
           </div>
-          <button className="bg-black dark:bg-pink-400 rounded-full w-fit text-white dark:text-black px-4 py-2">
-            Connect Now
+          <button className="bg-black dark:bg-pink-400 rounded-full w-fit text-white dark:text-black px-4 py-2" >
+            
+            <a href="http://localhost:3000/sign-up">Connect Now</a >
           </button>
         </motion.div>
       </AuroraBackground>
+      </>
     );
   }
   
