@@ -10,7 +10,9 @@ export default function Navbar() {
 
         </div>
         <div>
+            
             <UserButton />
+            
         </div>
     </div>
   )
